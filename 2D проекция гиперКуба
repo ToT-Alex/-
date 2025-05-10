@@ -1,0 +1,30 @@
+<svg width="360" height="225" viewBox="0 0 360 225" xmlns="http://www.w3.org/2000/svg">
+  <!-- Явная метка -->
+  <text x="180" y="20" font-size="12" text-anchor="middle">2D проекция гиперКуба (6 кубов вокруг протоКуба)</text>
+  
+  <!-- Внешние кубы -->
+  <!-- Ось X -->
+  <rect x="61.58" y="111.69" width="42.41" height="42.41" fill="#008000" stroke="#000" stroke-width="1.66"/>
+  <text x="81.54" y="138.3" font-size="16.63" text-anchor="middle">X-</text>
+  
+  <rect x="146.41" y="111.69" width="42.41" height="42.41" fill="#aa4400" stroke="#000" stroke-width="1.66"/>
+  <text x="168.03" y="138.3" font-size="16.63" text-anchor="middle">X+</text>
+  
+  <!-- Ось Y -->
+  <rect x="103.16" y="70.11" width="42.41" height="42.41" fill="#ff0000" stroke="#000" stroke-width="1.66"/>
+  <text x="124.78" y="96.72" font-size="16.63" text-anchor="middle">Y+</text>
+  
+  <rect x="103.16" y="154.93" width="42.41" height="42.41" fill="#0000ff" stroke="#000" stroke-width="1.66"/>
+  <text x="124.78" y="181.54" font-size="16.63" text-anchor="middle">Y-</text>
+  
+  <!-- Ось Z -->
+  <rect x="229.56" y="70.11" width="42.41" height="42.41" fill="#ff00ff" stroke="#000" stroke-width="1.66"/>
+  <text x="251.19" y="96.72" font-size="16.63" text-anchor="middle">Z+</text>
+  
+  <rect x="229.56" y="154.93" width="42.41" height="42.41" fill="#008080" stroke="#000" stroke-width="1.66"/>
+  <text x="251.19" y="181.54" font-size="16.63" text-anchor="middle">Z-</text>
+  
+  <!-- Центр (протоКуб) -->
+  <rect x="103.16" y="111.69" width="42.41" height="42.41" fill="none" stroke="#000" stroke-dasharray="4,2" stroke-width="1.66"/>
+  <text x="124.13" y="135.7" font-size="10.67" text-anchor="middle">Центр</text>
+</svg>
